@@ -24,7 +24,7 @@ Here's a visual overview of the high level system design.
 
 ![Alternative Text](https://github.com/ashatidealiq/EquityEnsemble/blob/main/pipeline.jpg)
 
-### Data Inputs
+## Data Inputs
 
 We propose building the model with freely available data from the following public APIs:
 
@@ -59,7 +59,7 @@ This smaller test set lets us work with large historical time series while still
 - **Netflix, Inc. (NFLX):** Streaming television and films.
 - **Sony Group Corporation (SONY):** Consumer and professional electronics, gaming, entertainment, and financial services.
 
-### Feature Engineering
+## Feature Engineering
 
 Each pipeline will source data via API or scraping (python scripts) and transform the data for the requirements of the individual models - this transformation "feature engineering." 
 
