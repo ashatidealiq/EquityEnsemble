@@ -90,11 +90,9 @@ Calculating an appropriate event datetime on stock prices, fundamental indicator
 
 Keeping the number of technicals we engineer low helps keep the model simple and our feature engineering pipeline relatively fast. We chose the following indicators for model training (TBC) based on the simplicity of their calculation from historical datasets and their (possible) impact on price action.
 
-**MACD:** shows the relationship between two moving averages and can help identify momentum.
-
-**RSI:** RSI measures the speed and change of price movements. This info could train the deep learning model to identify overbought and oversold conditions.
-
-**Bollinger Bands:** A quasi volatility indicator that consists of a middle SMA along with two standard deviation lines above and below it. These might help the model learn how potential price breakouts and outliers look during conditions of varying volatility.
+- **MACD:** shows the relationship between two moving averages and can help identify momentum.
+- **RSI:** RSI measures the speed and change of price movements. This info could train the deep learning model to identify overbought and oversold conditions.
+- **Bollinger Bands:** A quasi volatility indicator that consists of a middle SMA along with two standard deviation lines above and below it. These might help the model learn how potential price breakouts and outliers look during conditions of varying volatility.
 
 #### Label sentiment for news data
 
