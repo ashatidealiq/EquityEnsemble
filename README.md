@@ -46,19 +46,19 @@ The process is basically as follows:
 
 The following transformations are worth noting as they are based on core assumptions about the system's functionality:
 
-#### Calculate Ratios for Fundamentals 
+#### - Calculate Ratios for Fundamentals 
 
 (eg PE, P2B)
 
 
 
-#### Calculating Event Datetime 
+#### - Calculating Event Datetime 
 
 Calculating an appropriate event datetime on stock prices, fundamental indicators, news events and technical indicators is necessary to ensure we are comparing relevant events to price moves. For example if we get a negative news article about TSLA on March 12th 2024, we should look for the impact this has on the next available price datetime after that news article datetime - the March 12th close. 
 
 
 
-#### Calc RSI, SMA etc for technicals
+#### - Calc RSI, SMA etc for technicals
 
 
 #### Label sentiment for news data
