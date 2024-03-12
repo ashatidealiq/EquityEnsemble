@@ -1,4 +1,4 @@
-# Project: Deep Learning Ensemble For Equities Market Analysis 
+# Project: Deep Learning Ensemble For Equities Market Valuations 
 
 This project uses a collection of deep learning models to assess the impact of different types of data on equity prices. 
 
