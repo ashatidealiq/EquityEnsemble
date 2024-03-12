@@ -43,26 +43,26 @@ Note: As this is a proof of concept we have a preference for quantity over quali
 
 ### Test Data Selection
 
-We suggest a small initial selection of 15 US tech stocks for our model (TBC) A smaller test set lets us manage larger historical time series while still using the free API accounts and is more manageable for developing the model. We chose a mix that covers a range of market cap, sub-sectors, and growth stages. This allows us to view how different factors might impact the individual names  companies.
+We suggest a small initial selection of 18 US tech stocks for our model (TBC) A smaller test set lets us manage larger historical time series while still using the free API accounts and is more manageable for developing the model. We chose a mix that covers a range of market cap, sub-sectors, and growth stages. This allows us to view how different factors might impact the individual names  companies.
 
-- #Apple Inc. (AAPL):# A leader in consumer electronics and technology.
-- Microsoft Corp. (MSFT): Dominant in software, cloud computing, and personal computing.
-- Amazon.com Inc. (AMZN): Major player in e-commerce and cloud services.
-- Alphabet Inc. (GOOGL): The parent company of Google, leading in search engines, digital advertising, and more.
-- Facebook parent Meta Platforms Inc. (META): A leader in social media and digital communication.
-- Block Inc. (SQ): Innovator in financial services and mobile payments.
-- Shopify Inc. (SHOP): E-commerce platform that powers businesses of all sizes.
-- Zoom Video Communications, Inc. (ZM): Became essential for video communication in the remote work era.
-- Palantir Technologies Inc. (PLTR): Specializes in big data analytics.
-- Roku, Inc. (ROKU): Streaming media hardware and platform services.
-- Lemonade, Inc. (LMND): Technology-driven insurance company leveraging AI and big data.
-- Plug Power Inc. (PLUG): Innovator in alternative energy technology focusing on hydrogen fuel cell systems.
-- NVIDIA Corporation (NVDA): Leading chipmaker in GPUs for gaming and AI.
-- Advanced Micro Devices, Inc. (AMD): Competes in CPUs and GPUs, crucial for computing and gaming.
-- Intel Corporation (INTC): Major player in CPU manufacturing and technology innovation.
-- Tesla, Inc. (TSLA) - Electric vehicles and clean energy products.
-- Netflix, Inc. (NFLX) - Streaming television and films.
-- Sony Group Corporation (SONY) - Consumer and professional electronics, gaming, entertainment, and financial services.
+- **Apple Inc. (AAPL):** A leader in consumer electronics and technology.
+- **Microsoft Corp. (MSFT):** Dominant in software, cloud computing, and personal computing.
+- **Amazon.com Inc. (AMZN):** Major player in e-commerce and cloud services.
+- **Alphabet Inc. (GOOGL):** The parent company of Google, leading in search engines, digital advertising, and more.
+- **Facebook parent Meta Platforms Inc. (META):** A leader in social media and digital communication.
+- **Block Inc. (SQ):** Innovator in financial services and mobile payments.
+- **Shopify Inc. (SHOP):** E-commerce platform that powers businesses of all sizes.
+- **Zoom Video Communications, Inc. (ZM):** Became essential for video communication in the remote work era.
+- **Palantir Technologies Inc. (PLTR):** Specializes in big data analytics.
+- **Roku, Inc. (ROKU):** Streaming media hardware and platform services.
+- **Lemonade, Inc. (LMND):** Technology-driven insurance company leveraging AI and big data.
+- **Plug Power Inc. (PLUG):** Innovator in alternative energy technology focusing on hydrogen fuel cell systems.
+- **NVIDIA Corporation (NVDA):** Leading chipmaker in GPUs for gaming and AI.
+- **Advanced Micro Devices, Inc. (AMD):** Competes in CPUs and GPUs, crucial for computing and gaming.
+- **Intel Corporation (INTC):** Major player in CPU manufacturing and technology innovation.
+- **Tesla, Inc. (TSLA):** Electric vehicles and clean energy products.
+- **Netflix, Inc. (NFLX):** Streaming television and films.
+- **Sony Group Corporation (SONY):** Consumer and professional electronics, gaming, entertainment, and financial services.
 
 ### Feature Engineering
 
