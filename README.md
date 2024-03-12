@@ -97,7 +97,7 @@ We will use natural language processing to label articles with a sentiment "buy"
 
 We will train and validate each model on separate datasets (60/40). The validation process compares prediction values to actual values and returns error measures for these predictions (Mean Squared Error, Root Mean Squared Error etc..). 
 
-We have a couple of options to derive the final 100% composite number. This composite system could involve weighting the three separate outputs based on historical accuracy and error measures (TBC) or we could possibly even use another machine learning model to learn the best combination of inputs.
+We have a couple of options to derive the final 100% composite number. This composite number could involve weighting the three separate outputs based on historical accuracy and error measures (TBC) or we could train a fourth machine learning model to learn the best combination of inputs.
 
 
 
