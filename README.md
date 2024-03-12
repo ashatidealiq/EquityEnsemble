@@ -6,7 +6,7 @@ The three types of data we are interested in are:
 
 1. News data
 2. Technical data
-3. Fundamental data
+3. Fundamentals data
 
 This README describes the scope of the project including a discussion of the system design and methodology, data requirements, final output, and validation and success metrics and methodology.
 
