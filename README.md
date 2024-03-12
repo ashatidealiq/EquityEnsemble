@@ -10,7 +10,7 @@ The three types of data are:
 
 This README describes the scope of the project including a system design and methodology, final output, and validation and success metrics and methodology.
 
-## High Level System Design
+### High Level System Design
 
 ![Alternative Text](https://github.com/ashatidealiq/EquityEnsemble/blob/main/pipeline.jpg)
 
