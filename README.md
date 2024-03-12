@@ -38,7 +38,7 @@ As this project is a proof of concept we actually have a preference for quantity
 
 We suggest a small initial selection of 18 US tech stocks for our model (TBC). 
 
-This smaller test set lets us work with large historical time series while still using free API accounts, and is more manageable for developing the model. We chose a mix of instruments that covers a range of market cap (AAPL vs PLUG), sub-sectors (PLTR vs NFLX), and growth stages (MSFT vs LMND). This allows us to view how different factors might impact individual names (news and earnings for instance) while observing technicals and fundamentals that might impact the whole sector (like a secular trend or short squeeze).
+This smaller test set lets us work with large historical time series while still using free API accounts, and is more manageable for developing the model. 
 
 - **Apple Inc. (AAPL):** A leader in consumer electronics and technology.
 - **Microsoft Corp. (MSFT):** Dominant in software, cloud computing, and personal computing.
@@ -58,6 +58,8 @@ This smaller test set lets us work with large historical time series while still
 - **Tesla, Inc. (TSLA):** Electric vehicles and clean energy products.
 - **Netflix, Inc. (NFLX):** Streaming television and films.
 - **Sony Group Corporation (SONY):** Consumer and professional electronics, gaming, entertainment, and financial services.
+
+We chose a mix of instruments that covers a range of market cap (AAPL vs PLUG), sub-sectors (PLTR vs NFLX), and growth stages (MSFT vs LMND). This allows us to view how different factors might impact individual names (news and earnings for instance) while observing technicals and fundamentals that might impact the whole sector (like a secular trend or short squeeze).
 
 ## Feature Engineering
 
