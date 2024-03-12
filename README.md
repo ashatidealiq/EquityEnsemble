@@ -2,7 +2,7 @@
 
 This project uses a collection of deep learning models to assess the impact of different types of data on equity prices. 
 
-The three types of data are:
+The three types of data we are interested in are:
 
 1. News data
 2. Technical data
