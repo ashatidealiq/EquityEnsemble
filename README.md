@@ -63,13 +63,13 @@ We chose a mix of instruments that covers a range of market cap (AAPL vs PLUG), 
 
 ## Feature Engineering
 
-Each pipeline will source data via API or scraping (python scripts) and transform the data for the requirements of the individual models - this transformation "feature engineering." 
+Each pipeline will source data via API or scraping (python scripts) and transform the data for the requirements of the individual models - this data transformation is called "feature engineering." 
 
 The process is basically as follows: 
 
-1. Retrieve the data via vendor API (in JSON format) and csv and store in cloud storage in a simple folder based file system.
+1. Retrieve the data via vendor API (in JSON format) and CSV and store in cloud storage in a simple folder based file system (easiest to use mine but I will provide setup at the end of the project).
 2. Use hosted Jupyter Notebooks (with python) for initial preprocessing and feature engineering.
-3. Upload transformations code to Hopsworks (Hopsworks is an open source platform for orchestrating our feature engineering and hosting our deep learning models)
+3. Upload transformations code to Hopsworks (Hopsworks is an open source platform for hosting and orchestrating our feature stores, and evemtually hosting our deep learning models)
 
 The following transformations are worth noting as they are based on core assumptions about the system's functionality:
 
@@ -91,5 +91,5 @@ Keeping the number of technicals we engineer low helps keep the model simple and
 
 #### Label sentiment for news data
 
-
+We will use natural language processing to label articles with a sentiment "buy", "sell" or "hold" (TBC) depending on the testing. Named entity recognition helps identify and label articles precisely targeted to specific companies. This level of sentiment analysis is TBC depending on performance and the quality of the data given that we will be working with a reduced set of companies for testing. 
 
