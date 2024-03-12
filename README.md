@@ -45,7 +45,7 @@ Note: As this is a proof of concept we have a preference for quantity over quali
 
 We suggest a small initial selection of 15 US tech stocks for our model (TBC) A smaller test set lets us manage larger historical time series while still using the free API accounts and is more manageable for developing the model. We chose a mix that covers a range of market cap, sub-sectors, and growth stages. This allows us to view how different factors might impact the individual names  companies.
 
-- Apple Inc. (AAPL): A leader in consumer electronics and technology.
+- #Apple Inc. (AAPL):# A leader in consumer electronics and technology.
 - Microsoft Corp. (MSFT): Dominant in software, cloud computing, and personal computing.
 - Amazon.com Inc. (AMZN): Major player in e-commerce and cloud services.
 - Alphabet Inc. (GOOGL): The parent company of Google, leading in search engines, digital advertising, and more.
