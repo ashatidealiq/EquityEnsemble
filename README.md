@@ -12,7 +12,7 @@ This README describes the scope of the project including a discussion of the sys
 
 ### System Overview
 
-Given the distinct nature of each data type we propose building three separate data pipelines each with their own separate deep learning models. 
+Given the distinct nature of each data type, we propose building three separate data pipelines, each with their own separate deep learning models. 
 
 Each model will return closing price predictions for the underlying instruments as well as error measures for its model predictions (MSE, RMSE etc..). After feature engineering (see *Feature Engineering* below) each pipeline will also show the correlation of its corresponding data with the underlying price action (based on historic data.) 
 
