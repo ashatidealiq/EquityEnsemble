@@ -28,9 +28,14 @@ The overall system design is as follows.
 
 We propose building the model with freely available data from the following public APIs:
 
-News Data: Marketaux, Yahoo Finance
-Technical Data: Alpha Vantage, Quandl
-Fundamentals: Finnhub
+  #### News Data: 
+  Marketaux, Yahoo Finance
+  
+  #### Technical Data: 
+  Alpha Vantage, Quandl
+  
+  #### Fundamentals: 
+  Finnhub
 
 Note: As this is a proof of concept we have a preference for quantity over quality. The aim here is to build an end-to-end model that works and has a reasonable level of interpretability, in a relatively short time frame. These 5 data sources should cover our requirements.
 
