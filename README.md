@@ -93,3 +93,12 @@ Keeping the number of technicals we engineer low helps keep the model simple and
 
 We will use natural language processing to label articles with a sentiment "buy", "sell" or "hold" (TBC) depending on the testing. Named entity recognition helps identify and label articles precisely targeted to specific companies. This level of sentiment analysis is TBC depending on performance and the quality of the data given that we will be working with a reduced set of companies for testing. 
 
+## Data Output
+
+We will train and validate each model on separate datasets (60/40). The validation process compares prediction values to actual values and returns error measures for these predictions (Mean Squared Error, Root Mean Squared Error etc..). 
+
+We have a couple of options to derive the final 100% composite number. We can use the validation run results to compare the accuracy of the different models (News vs Technicals vs Fundamentals) and weight the final composite 100% number accordingly. We could possibly even use another machine learning model to learn the best combination of inputs.
+
+
+
+
