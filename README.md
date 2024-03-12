@@ -34,7 +34,7 @@ We propose building the model with freely available data from the following publ
 
 As this project is a proof of concept we actually have a preference for *quantity over quality*. One of our main objectives is to build an end-to-end model that works and has a reasonable level of interpretability, in a relatively short time frame. These 5 data sources should cover our requirements.
 
-### Test Data Selection
+## Test Data Selection
 
 We suggest a small initial selection of 18 US tech stocks for our model (TBC). 
 
