@@ -16,13 +16,13 @@ Given the distinct nature of each data type, we propose building three separate 
 
 Each model will return closing price predictions for the underlying instruments as well as error measures for its model predictions (MSE, RMSE etc..). After feature engineering (see *Feature Engineering* below) each pipeline will also show the correlation of its corresponding data with the underlying price action (based on historic data.) 
 
-Splitting the pipelines into 3 separate flows like this will improve the interpretability of our end predictions - ie: it makes it easier to "interpret" the results of our models vs building a black box.
-
-This increased interpretability helps us compare the results of the different pipelines in a meaningful way. It also enables us to build the decision system that integrates outputs from the three different models (See *Data Output* below). 
-
 Here's a visual overview of the high level system design.
 
 ![Alternative Text](https://github.com/ashatidealiq/EquityEnsemble/blob/main/pipeline.jpg)
+
+Splitting the pipelines into 3 separate flows like this will improve the interpretability of our end predictions - ie: it makes it easier to "interpret" the results of our models vs building a black box.
+
+This increased interpretability helps us compare the results of the different pipelines in a meaningful way. It also enables us to build the decision system that integrates outputs from the three different models (See *Data Output* below). 
 
 ## Data Inputs
 
